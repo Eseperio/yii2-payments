@@ -83,3 +83,7 @@ Define the name of database tables we use.
 This config option accepts and array on format key - table name
 Acceptes keys are payment and response
 
+# Migration
+After adding module to your main configuration load the migrations
+
+```yii migrate/up --migrationPath=@vendor/macklus/yii2-payments/migrations```
